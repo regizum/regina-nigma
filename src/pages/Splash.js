@@ -376,7 +376,7 @@ const Splash = () => {
                                         <img src="./images/demo/react-badge.png" alt="Doob React" />
                                     </div>
                                     <h1 className="title display-two">
-                                        Next-gen all-in-one <br />
+                                        Cool websites by <br />
                                         <span className="theme-gradient">Regina</span> & {" "}
                                         <span className="theme-gradient">Nigmatullina</span>
                                         <br />
