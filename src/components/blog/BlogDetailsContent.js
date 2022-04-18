@@ -1,6 +1,6 @@
 import React from 'react';
 import SidebarTag from './sidebar/SidebarTag';
-import SideCategories from './sidebar/SideCategories';
+// import SideCategories from './sidebar/SideCategories';
 import Comment from './Comment';
 import {slugify} from "../../utils";
 import {Link} from "react-router-dom";

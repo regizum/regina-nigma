@@ -9,7 +9,7 @@ const HeaderTopBar = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-4 col-md-12 col-12">
                         <div className="header-left">
-                            <p><a href="#link">Get the most advanced template <FiChevronRight /></a></p>
+                            <p><a href="/contacts">Get the most advanced template <FiChevronRight /></a></p>
                         </div>
                     </div>
                     <div className="col-lg-8 col-md-12 col-12">

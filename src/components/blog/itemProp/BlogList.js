@@ -5,11 +5,11 @@ import {Link} from "react-router-dom";
 
 
 const BlogList = ({ data, StyleVar }) => {
-    const cate = data.categories.map((value, i) => {
-        return (
-            <Link to={process.env.PUBLIC_URL + `/category/${slugify(value)}`} key={i}>{value}{i !== data.categories.length - 1 && ","}</Link>
-        )
-    });
+    // const cate = data.categories.map((value, i) => {
+    //     return (
+    //         <Link to={process.env.PUBLIC_URL + `/category/${slugify(value)}`} key={i}>{value}{i !== data.categories.length - 1 && ","}</Link>
+    //     )
+    // });
 
     
     return (
@@ -17,7 +17,7 @@ const BlogList = ({ data, StyleVar }) => {
             <div className="inner">
                 <div className="thumbnail">
                     <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`} className="image">
-                        <img src={`${process.env.PUBLIC_URL}/${data.image}`} alt="Blog Image" />
+                        <img src={`${process.env.PUBLIC_URL}/${data.image}`} alt="Blog" />
                     </Link>
                 </div>
                 <div className="content">
