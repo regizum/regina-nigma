@@ -377,8 +377,8 @@ const Splash = () => {
                                     </div>
                                     <h1 className="title display-two">
                                         Next-gen all-in-one <br />
-                                        <span className="theme-gradient">Business</span> & {" "}
-                                        <span className="theme-gradient">Consulting</span>
+                                        <span className="theme-gradient">Regina</span> & {" "}
+                                        <span className="theme-gradient">Nigmatullina</span>
                                         <br />
                                         React Template.
                                     </h1>
