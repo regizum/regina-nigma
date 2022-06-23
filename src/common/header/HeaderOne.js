@@ -40,14 +40,14 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
                                     <Nav />
                                 </nav>
                                 <div className="header-btn">
-                                    <a className={`btn-default ${btnStyle}`} target="_blank" rel="noreferrer" href="https://themeforest.net/checkout/from_item/33571911?license=regular">BUY NOW</a>
+                                    <a className={`btn-default ${btnStyle}`} target="_blank" rel="noreferrer" href="https://themeforest.net/checkout/from_item/33571911?license=regular">Contact Us</a>
                                 </div>
                                 <div className="mobile-menu-bar ml--5 d-block d-lg-none">
                                     <div className="hamberger">
                                         <button className="hamberger-button" onClick={onCanvasHandler}><FiMenu /></button>
                                     </div>
                                 </div>
-                                <Darkmode />
+                                {/*<Darkmode />*/}
                             </div>  
                         </div>
                     </div>
