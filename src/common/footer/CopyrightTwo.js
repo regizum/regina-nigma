@@ -10,8 +10,8 @@ const CopyrightTwo = () => {
                     <div className="col-lg-4 col-md-7 col-sm-12 col-12">
                         <div className="copyright-left">
                             <ul className="ft-menu link-hover">
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms And Condition</a></li>
+                                <li><a href="/contact">Privacy Policy</a></li>
+                                <li><a href="/contact">Terms And Condition</a></li>
                                 <li><a href="/contact">Contact Us</a></li>
                             </ul>
                         </div>

@@ -363,7 +363,7 @@ const Splash = () => {
         <>
            <SEO title="Doob" />
            <main className="page-wrapper">
-                <HeaderTopNews />
+                {/*<HeaderTopNews />*/}
                 <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
 
                 {/* Start Slider Area  */}
@@ -371,20 +371,17 @@ const Splash = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <div className="inner text-center">
-                                    <div className="react-image mb--20">
-                                        <img src="./images/demo/react-badge.png" alt="Doob React" />
-                                    </div>
-                                    <h1 className="title display-two">
-                                        Next-gen all-in-one <br />
-                                        <span className="theme-gradient">Business</span> & {" "}
-                                        <span className="theme-gradient">Consulting</span>
-                                        <br />
-                                        React Template.
+                                <div className="inner text-center mb-">
+                                    {/*<div className="react-image mb--20">*/}
+                                    {/*    <img src="./images/demo/react-badge.png" alt="Doob React" />*/}
+                                    {/*</div>*/}
+                                    <h1 className="title display-two mt--130 mb--130">
+                                        Create a website<br />for your business<br />
+                                        <span className="theme-gradient">to get more sales</span>
                                     </h1>
-                                    <p className="description">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>
+                                    {/*<p className="description">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>*/}
                                     <div className="button-group">
-                                        <a className="btn-default btn-large round btn-icon" href="#demo">View Demo <FiArrowDown /></a>
+                                        <a className="btn-default btn-large round btn-icon" href="#demo">Read more <FiArrowDown /></a>
                                     </div>
                                 </div>
                             </div>
@@ -393,7 +390,7 @@ const Splash = () => {
                 </div>
                 {/* End Slider Area  */}
 
-                <Separator />
+                {/*<Separator />*/}
 
                 {/* Start Our Demo  */}
                 <div className="rn-demo-area rn-section-gap" id="demo">

@@ -6,7 +6,7 @@ import { FiX } from "react-icons/fi";
 const MobileMenu = ({show, onClose}) => {
     var elements = document.querySelectorAll('.popup-mobile-menu .has-droupdown > a');
     var elementsTwo = document.querySelectorAll('.popup-mobile-menu .with-megamenu > a');
-    for(var i in elements) {
+    for(let i in elements) {
         if(elements.hasOwnProperty(i)) {
             elements[i].onclick = function() {
                 this.parentElement.querySelector('.submenu').classList.toggle("active");
@@ -15,7 +15,7 @@ const MobileMenu = ({show, onClose}) => {
         }
     }
 
-    for(var i in elementsTwo) {
+    for(let i in elementsTwo) {
         if(elementsTwo.hasOwnProperty(i)) {
             elementsTwo[i].onclick = function() {
                 this.parentElement.querySelector('.rn-megamenu').classList.toggle("active");
