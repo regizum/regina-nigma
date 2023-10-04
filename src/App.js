@@ -81,7 +81,7 @@ const App = () => {
         <Router>
             <PageScrollTop>
                 <Switch>
-                    <Route path={`${process.env.PUBLIC_URL + "/"}`} exact component={ComingSoon}/>
+                    <Route path={`${process.env.PUBLIC_URL + "/"}`} exact component={Splash}/>
                     <Route path={`${process.env.PUBLIC_URL + "/splash"}`} exact component={Splash}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting"}`} exact component={HomeDefault}/>
                     <Route path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`} exact component={BusinessConsulting2}/>

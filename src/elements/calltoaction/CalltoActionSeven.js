@@ -5,8 +5,8 @@ import Logo from "../logo/Logo";
 
 const callToActionData = {
     title: "Ready to start creating a standard website?",
-    subtitle: "If you want to create a corporate template you can purshace now our doob template.",
-    btnText: "Purchase Doob",
+    subtitle: "This website is built with React.js.",
+    btnText: "Contact Me",
 }
 
 const CalltoActionSeven = () => {
@@ -17,16 +17,11 @@ const CalltoActionSeven = () => {
                     <div className="col-lg-8 col-md-8">
                         <div className="inner">
                             <div className="content text-left">
-                                <Logo 
+                                <Logo
                                     image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
                                     image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
                                 />
-                                <ScrollAnimation 
-                                animateIn="fadeInUp"
-                                animateOut="fadeInOut"
-                                animateOnce={true}>
-                                    <p className="subtitle">{callToActionData.subtitle}</p>
-                                </ScrollAnimation>
+                                <p className="subtitle mt--30">{callToActionData.subtitle}</p>
                             </div>
                         </div>
                     </div>

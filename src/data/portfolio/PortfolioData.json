@@ -1,265 +1,264 @@
 [
     {
-        "id": 1,
-        "portfolioImage": "./images/portfolio/portfolio-01.jpg",
-        "image": "images/portfolio/portfolio-01.jpg",
-        "title": "App Development",
-        "subtitle": "Branded client",
-        "date": "30 May 2021",
-        "client": "Rainbow Themes",
-        "category": "development",
+        "id": 7,
+        "portfolioImage": "./images/portfolio/similie.jpg",
+        "image": "images/portfolio/similie.jpg",
+        "title": "Front-End Development at Similie",
+        "subtitle": "About Project",
+        "date": "October 2018 - October 2023",
+        "client": "Similie",
+        "category": "Front-End Development",
         "awards": ["2020 Design beautiful apps Finale Awards"],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": ["<p>I have had the privilege of serving as a Front-End Developer at Similie since October 2018. Over the years, I have evolved into a dynamic and proficient front-end developer, contributing significantly to the success of Similie.</p></br><p>My work at Similie has underscored my commitment to delivering high-quality front-end solutions and my ability to adapt to evolving design and development requirements.</p></br><p>I took on a leading role within the company and demonstrated a meticulous, action-oriented approach. I proactively initiated projects, collaborated with team members, and established well-defined paths for execution and accountability.</p>"],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
         },
-        "largeImage": "./images/portfolio/portfolio-01.jpg",
+        "largeImage": "images/portfolio/similie.jpg",
         "subContent": {
-            "title": "Digital Marketing.",
-            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+            "title": "Complete Redesign",
+            "subtext": "One of my major achievements was the complete redesign and implementation of the front-end experience for Similie's flagship product, Parabl. This project involved reworking a complex application codebase with years of legacy code, showcasing my ability to tackle significant challenges."
         },
         "subContent2": {
-            "title": "App Development.",
-            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+            "title": "Organized Styles System with BEM Methodology",
+            "subtext": "I implemented the BEM (Block, Element, Modifier) methodology to create a highly organized UI component system. This approach ensured the maintainability and scalability of our front-end codebase, resulting in streamlined development processes."
         },
         "subContent3": {
-            "title": "Solution.",
-            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+            "title": "Theme Customization",
+            "subtext": "As part of my contributions, I introduced a dynamic theming feature that allowed users to switch between Light and Dark themes effortlessly. This enhancement provided users with a more personalized and visually pleasing experience."
         },
         "gallery": {
-            "imageOne": "images/portfolio/portfolio-01.jpg",
-            "imageTwo": "images/portfolio/portfolio-02.jpg",
-            "imageThree": "images/portfolio/portfolio-03.jpg"
-        }
-    },
-
-    {
-        "id": 2,
-        "portfolioImage": "./images/portfolio/portfolio-02.jpg",
-        "image": "images/portfolio/portfolio-02.jpg",
-        "title": "Business Development",
-        "subtitle": "Awesome portfolio",
-        "date": "01 March 2021",
-        "client": "Rainbow Themes",
-        "category": "design",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
-        "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
-        "btn": {
-            "buttontext": "View Projects",
-            "link": "/"
-        },
-        "largeImage": "images/portfolio/portfolio-02.jpg",
-        "subContent": {
-            "title": "Digital Marketing.",
-            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "subContent2": {
-            "title": "App Development.",
-            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "subContent3": {
-            "title": "Solution.",
-            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "gallery": {
-            "imageOne": "images/portfolio/portfolio-01.jpg",
-            "imageTwo": "images/portfolio/portfolio-02.jpg",
-            "imageThree": "images/portfolio/portfolio-03.jpg"
-        }
-    },
-
-    {
-        "id": 3,
-        "portfolioImage": "./images/portfolio/portfolio-03.jpg",
-        "image": "images/portfolio/portfolio-03.jpg",
-        "title": "Photoshop Design",
-        "subtitle": "Awesome portfolio",
-        "date": "01 March 2021",
-        "client": "Rainbow Themes",
-        "category": "art",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
-        "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
-        "btn": {
-            "buttontext": "View Projects",
-            "link": "/"
-        },
-        "largeImage": "images/portfolio/portfolio-03.jpg",
-        "subContent": {
-            "title": "Digital Marketing.",
-            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "subContent2": {
-            "title": "App Development.",
-            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "subContent3": {
-            "title": "Solution.",
-            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "gallery": {
-            "imageOne": "images/portfolio/portfolio-01.jpg",
-            "imageTwo": "images/portfolio/portfolio-02.jpg",
-            "imageThree": "images/portfolio/portfolio-03.jpg"
-        }
-    },
-
-    {
-        "id": 4,
-        "portfolioImage": "./images/portfolio/portfolio-04.jpg",
-        "image": "images/portfolio/portfolio-04.jpg",
-        "title": "Native Application",
-        "subtitle": "Awesome portfolio",
-        "date": "01 March 2021",
-        "client": "Rainbow Themes",
-        "category": "development",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
-        "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
-        "btn": {
-            "buttontext": "View Projects",
-            "link": "/"
-        },
-        "largeImage": "images/portfolio/portfolio-04.jpg",
-        "subContent": {
-            "title": "Digital Marketing.",
-            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "subContent2": {
-            "title": "App Development.",
-            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "subContent3": {
-            "title": "Solution.",
-            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "gallery": {
-            "imageOne": "images/portfolio/portfolio-01.jpg",
-            "imageTwo": "images/portfolio/portfolio-02.jpg",
-            "imageThree": "images/portfolio/portfolio-04.jpg"
-        }
-    },
-
-    {
-        "id": 5,
-        "portfolioImage": "./images/portfolio/portfolio-05.jpg",
-        "image": "images/portfolio/portfolio-05.jpg",
-        "title": "React Development",
-        "subtitle": "Awesome portfolio",
-        "date": "01 March 2021",
-        "client": "Rainbow Themes",
-        "category": "design",
-        "awards": ["2020 Design beautiful apps Finale Awards"],
-        "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
-        "btn": {
-            "buttontext": "View Projects",
-            "link": "/"
-        },
-        "largeImage": "images/portfolio/portfolio-05.jpg",
-        "subContent": {
-            "title": "Digital Marketing.",
-            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "subContent2": {
-            "title": "App Development.",
-            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "subContent3": {
-            "title": "Solution.",
-            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
-        },
-        "gallery": {
-            "imageOne": "images/portfolio/portfolio-01.jpg",
-            "imageTwo": "images/portfolio/portfolio-02.jpg",
-            "imageThree": "images/portfolio/portfolio-03.jpg"
+            "imageOne": "images/portfolio/similie1.jpg",
+            "imageTwo": "images/portfolio/similie2.jpg",
+            "imageThree": "images/portfolio/similie3.jpg"
         }
     },
 
     {
         "id": 6,
-        "portfolioImage": "./images/portfolio/portfolio-06.jpg",
-        "image": "images/portfolio/portfolio-06.jpg",
-        "title": "App Installment",
-        "subtitle": "Awesome portfolio",
-        "date": "01 March 2021",
-        "client": "Rainbow Themes",
-        "category": "design",
+        "portfolioImage": "./images/portfolio/payever.jpg",
+        "image": "images/portfolio/payever.jpg",
+        "title": "Front-End Development at Payever",
+        "subtitle": "About Project",
+        "date": "March 2018 - August 2018",
+        "client": "Payever",
+        "category": "Front-End Development",
         "awards": ["2020 Design beautiful apps Finale Awards"],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": ["<p>In my role as a Front-End Developer at Payever, I had the opportunity to work on complex applications using Angular 6.</p></br><p>I contributed significantly to the success of our projects and improve the overall user experience. My dedication to code quality and innovative solutions positively impacted the team's productivity and the satisfaction of our end-users.</p>"],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
         },
-        "largeImage": "images/portfolio/portfolio-06.jpg",
+        "largeImage": "images/portfolio/payever.jpg",
         "subContent": {
-            "title": "Digital Marketing.",
-            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+            "title": "Angular 6 Development",
+            "subtext": "I was heavily involved in the development of complex web applications using Angular 6, leveraging its capabilities to create robust and responsive user interfaces."
         },
         "subContent2": {
-            "title": "App Development.",
-            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+            "title": "UI Component Development",
+            "subtext": "I took ownership of developing UI components based on our custom UI-kit system. This allowed us to consistently deliver the best user experience to our customers by ensuring a cohesive and visually appealing design across our applications."
         },
         "subContent3": {
-            "title": "Solution.",
-            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+            "title": "Code Reviews and Quality Assurance",
+            "subtext": "I played a key role in maintaining code quality by conducting thorough code reviews. This ensured consistency in coding standards and optimized the style system for better maintainability."
         },
         "gallery": {
-            "imageOne": "images/portfolio/portfolio-01.jpg",
-            "imageTwo": "images/portfolio/portfolio-02.jpg",
-            "imageThree": "images/portfolio/portfolio-06.jpg"
+            "imageOne": "images/portfolio/payever1.jpg",
+            "imageTwo": "images/portfolio/payever2.jpg",
+            "imageThree": "images/portfolio/payever3.jpg"
         }
     },
 
     {
-        "id": 7,
-        "portfolioImage": "./images/portfolio/portfolio-07.jpg",
-        "image": "images/portfolio/portfolio-07.jpg",
-        "title": "Design in figma",
-        "subtitle": "Awesome portfolio",
-        "date": "01 March 2021",
-        "client": "Rainbow Themes",
-        "category": "design",
+        "id": 1,
+        "portfolioImage": "./images/portfolio/dmd1.jpg",
+        "image": "images/portfolio/dmd1.jpg",
+        "title": "E-commerce Website for DMDBrand",
+        "subtitle": "About Project",
+        "date": "September 2023",
+        "client": "DMD Brand",
+        "category": "E-commerce",
+        "excerpt": "Design beautiful apps.",
+        "body": ["<p> I've received a request to build a website for exclusive dresses and costumes. Because some pages have unconventional layouts, we've opted to use WordPress + WooCommerce.</p>"],
+        "btn": {
+            "buttontext": "View Other Projects",
+            "link": "/"
+        },
+        "largeImage": "./images/portfolio/dmd1.jpg",
+        "subContent": {
+            "title": "Clean And Simple Design",
+            "subtext": "The photos provided by the client are vivid and vibrant. Therefore, it was crucial to create a minimalist design. Since the primary focus was on the photos, a masonry grid layout was employed."
+        },
+        "subContent2": {
+            "title": "User Friendly Shop",
+            "subtext": "The website offers the option to make payments and purchase dresses, so there is a 'shop' section available."
+        },
+        "subContent3": {
+            "title": "Responsive",
+            "subtext": "The website is fully responsive and adapted for all devices."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/dmd2.jpg",
+            "imageTwo": "images/portfolio/dmd3.jpg",
+            "imageThree": "images/portfolio/dmd.jpg"
+        }
+    },
+
+    {
+        "id": 4,
+        "portfolioImage": "./images/portfolio/namogoo.jpg",
+        "image": "images/portfolio/namogoo.jpg",
+        "title": "Mobile App for Namogoo",
+        "subtitle": "About Project",
+        "date": "2019",
+        "client": "CodersClan",
+        "category": "Mobile App",
         "awards": ["2020 Design beautiful apps Finale Awards"],
         "excerpt": "Design beautiful apps.",
-        "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
+        "body": ["<p>When I worked at CodersClan, I was tasked with creating a mobile application for a some special event.</p></br><p>The application is essentially a roulette wheel that awards prizes with a specific probability.</p></br><p>The application was built using Cordova.</p>"],
         "btn": {
             "buttontext": "View Projects",
             "link": "/"
         },
-        "largeImage": "images/portfolio/portfolio-07.jpg",
+        "largeImage": "images/portfolio/namogoo.jpg",
         "subContent": {
-            "title": "Digital Marketing.",
-            "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."
+            "title": "Roulette Animation.",
+            "subtext": "The most challenging aspect of the application was the roulette wheel animation."
         },
         "subContent2": {
-            "title": "App Development.",
-            "subtext": "We provide App Development services to startups and small businesses. We help our clients succeed by creating brand identities."
+            "title": "Hidden Application Settings",
+            "subtext": "The application includes a hidden admin panel for configuring general application settings and generating a file with collected contact information."
         },
         "subContent3": {
-            "title": "Solution.",
-            "subtext": "We provide problem solutions services to startups and small businesses. We help our clients succeed by creating brand identities."
+            "title": "Prize Generation Settings.",
+            "subtext": "The application also has a hidden admin panel for prize generation settings."
         },
         "gallery": {
-            "imageOne": "images/portfolio/portfolio-01.jpg",
-            "imageTwo": "images/portfolio/portfolio-02.jpg",
-            "imageThree": "images/portfolio/portfolio-03.jpg"
+            "imageOne": "images/portfolio/namogoo1.jpg",
+            "imageTwo": "images/portfolio/namogoo2.jpg",
+            "imageThree": "images/portfolio/namogoo3.jpg"
+        }
+    },
+
+    {
+        "id": 3,
+        "portfolioImage": "./images/portfolio/byoufit.jpg",
+        "image": "images/portfolio/byoufit.jpg",
+        "title": "Informational Website for BYouFit",
+        "subtitle": "About Project",
+        "date": "May 2022",
+        "client": "BYouFit",
+        "category": "Informational",
+        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "excerpt": "Design beautiful apps.",
+        "body": ["<p>I received a request to create a website for a company that specializes in delivering healthy food.</p></br><p>The website displays information about the existing delivery options, the advantages of working with the company, and contact information.</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/"
+        },
+        "largeImage": "images/portfolio/byoufit.jpg",
+        "subContent": {
+            "title": "Branding Style",
+            "subtext": "The website is designed in the company's style. Green colors dominate the site, which best suits the theme."
+        },
+        "subContent2": {
+            "title": "Trial Week",
+            "subtext": "It was decided to add a promotion with a trial week so that customers have the opportunity to try the delivery at an enticing price."
+        },
+        "subContent3": {
+            "title": "FAQ",
+            "subtext": "It was important to include a FAQ section with answers to frequently asked questions to make it easier for potential customers to make a decision to place an order."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/byoufit1.jpg",
+            "imageTwo": "images/portfolio/byoufit2.jpg",
+            "imageThree": "images/portfolio/byoufit3.jpg"
+        }
+    },
+
+    {
+        "id": 2,
+        "portfolioImage": "./images/portfolio/globals.jpg",
+        "image": "images/portfolio/globals.jpg",
+        "title": "Corporate Website for GlobalS",
+        "subtitle": "About Project",
+        "date": "October 2022",
+        "client": "GlobalS",
+        "category": "Corporate",
+        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "excerpt": "Design beautiful apps.",
+        "body": ["<p>I received a request to create a website for the company Globals.</p></br><p>The company is represented in two countries: the UAE and Lebanon. Therefore, it was important to provide contact information for both countries.</p></br><p>The website consists of 4 pages: Home, which provides general information about the company, and three other pages for services (Food Safety, Catering, and Cleaning).</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/"
+        },
+        "largeImage": "images/portfolio/globals.jpg",
+        "subContent": {
+            "title": "Brand Identity",
+            "subtext": "It was important for the client to preserve the brand identity. Therefore, the company's logo was added as a pattern to the background."
+        },
+        "subContent2": {
+            "title": "Services",
+            "subtext": "There are links to individual service pages from the homepage. Each page has a primary color corresponding to the colors used in all other printed marketing materials of the company."
+        },
+        "subContent3": {
+            "title": "Responsive",
+            "subtext": "The website is fully responsive and adapted for all devices."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/globals2.jpg",
+            "imageTwo": "images/portfolio/globals3.jpg",
+            "imageThree": "images/portfolio/globals1.jpg"
+        }
+    },
+
+    {
+        "id": 5,
+        "portfolioImage": "./images/portfolio/namogoo-webinar.jpg",
+        "image": "images/portfolio/namogoo-webinar.jpg",
+        "title": "Wordress Template for Namogoo Virtual Summit",
+        "subtitle": "About Project",
+        "date": "2019",
+        "client": "CodersClan",
+        "category": "Wordpress Template",
+        "awards": ["2020 Design beautiful apps Finale Awards"],
+        "excerpt": "Design beautiful apps.",
+        "body": ["<p>When I worked at CodersClan, I was tasked with creating a WordPress template for an Israel eCommerce Innovation Virtual Summit.</p>"],
+        "btn": {
+            "buttontext": "View Projects",
+            "link": "/"
+        },
+        "largeImage": "images/portfolio/namogoo-webinar.jpg",
+        "subContent": {
+            "title": "Pixel Perfect Implementation.",
+            "subtext": "The design had a unique design that was implemented on the website perfectly."
+        },
+        "subContent2": {
+            "title": "Animation Implementation.",
+            "subtext": "The website featured animations that were seamlessly integrated into the site."
+        },
+        "subContent3": {
+            "title": "WordPress Template.",
+            "subtext": "The backend was built using WordPress, allowing the client to easily modify the content on the pages."
+        },
+        "gallery": {
+            "imageOne": "images/portfolio/namogoo-webinar1.jpg",
+            "imageTwo": "images/portfolio/namogoo-webinar2.jpg",
+            "imageThree": "images/portfolio/namogoo-webinar3.jpg"
         }
     },
 
     {
         "id": 8,
-        "portfolioImage": "./images/portfolio/portfolio-08.jpg",
-        "image": "images/portfolio/portfolio-08.jpg",
-        "title": "Application Managemnet",
+        "portfolioImage": "./images/portfolio/ansora.jpg",
+        "image": "images/portfolio/ansora.jpg",
+        "title": "E-commerce Website for Ansora",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
-        "category": "design",
+        "category": "E-commerce",
         "awards": ["2020 Design beautiful apps Finale Awards"],
         "excerpt": "Design beautiful apps.",
         "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
@@ -289,13 +288,13 @@
 
     {
         "id": 9,
-        "portfolioImage": "./images/portfolio/portfolio-01.jpg",
-        "image": "images/portfolio/portfolio-01.jpg",
-        "title": "Creative Business",
+        "portfolioImage": "./images/portfolio/lijewelryco.jpg",
+        "image": "images/portfolio/lijewelryco.jpg",
+        "title": "E-commerce Website for LiJewelryCo",
         "subtitle": "Awesome portfolio",
         "date": "01 March 2021",
         "client": "Rainbow Themes",
-        "category": "design",
+        "category": "E-commerce",
         "awards": ["2020 Design beautiful apps Finale Awards"],
         "excerpt": "Design beautiful apps.",
         "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
@@ -303,7 +302,7 @@
             "buttontext": "View Projects",
             "link": "/"
         },
-        "largeImage": "images/portfolio/portfolio-01.jpg",
+        "largeImage": "images/portfolio/portfolio-08.jpg",
         "subContent": {
             "title": "Digital Marketing.",
             "subtext": "We provide digital experience services to startups and small businesses. We help our clients succeed by creating brand identities."

@@ -11,9 +11,7 @@ const Portfolio = () => {
 
     return (
         <>
-            <SEO title="Portfolio || Doob - React Business  Template" />
             <Layout>
-
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
                     rootUrl="/"

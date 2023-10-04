@@ -1,32 +1,45 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import PortfolioData from "../../data/portfolio/PortfolioData.json";
 import PortfolioItem from "./PortfolioItem";
-import { FaSpinner } from "react-icons/fa";
+import {FaSpinner} from "react-icons/fa";
+import SEO from "../../common/SEO";
 
 const filters = [
     {
-      id: 1,
-      text: "All",
+        id: 1,
+        text: "All",
     },
     {
-      id: 2,
-      text: "design",
+        id: 7,
+        text: "Front-End Development",
     },
     {
-      id: 3,
-      text: "art",
+        id: 2,
+        text: "E-commerce",
     },
     {
-      id: 4,
-      text: "development",
+        id: 3,
+        text: "Corporate",
+    },
+    {
+        id: 4,
+        text: "Informational",
+    },
+    {
+        id: 5,
+        text: "Mobile App",
+    },
+    {
+        id: 6,
+        text: "Wordpress Template",
     }
 ];
 
 const alldata = PortfolioData;
-const PortfolioOne = ({ Column }) => {
+const PortfolioOne = ({Column}) => {
     const [getAllItems] = useState(alldata);
-    const [dataVisibleCount, setDataVisibleCount] = useState(6);
-    const [dataIncrement] = useState(6) ;
+    const [dataVisibleCount, setDataVisibleCount] = useState(10);
+    const [dataIncrement] = useState(10);
     const [noMorePost, setNoMorePost] = useState(false);
     const [activeFilter, setActiveFilter] = useState("");
     const [visibleItems, setVisibleItems] = useState([]);
@@ -40,13 +53,14 @@ const PortfolioOne = ({ Column }) => {
         setActiveFilter(e.target.textContent.toLowerCase());
         let tempData;
         if (e.target.textContent.toLowerCase() === filters[0].text.toLowerCase()) {
-          tempData = getAllItems.filter((data) => data.id <= dataVisibleCount);
+            tempData = getAllItems.filter((data) => data.id <= dataVisibleCount);
         } else {
-          tempData = getAllItems.filter(
-            (data) =>
-              data.category === e.target.textContent.toLowerCase() &&
-              data.id <= dataVisibleCount
-          );
+            console.log(getAllItems, e.target.textContent.toLowerCase());
+            tempData = getAllItems.filter(
+                (data) =>
+                    data.category.toLowerCase() === e.target.textContent.toLowerCase() &&
+                    data.id <= dataVisibleCount
+            );
         }
         setVisibleItems(tempData);
     };
@@ -60,34 +74,34 @@ const PortfolioOne = ({ Column }) => {
             setDataVisibleCount(tempCount);
             if (activeFilter === filters[0].text.toLowerCase()) {
                 setVisibleItems(getAllItems.filter((data) => data.id <= tempCount));
-            }else {
+            } else {
                 setVisibleItems(
                     getAllItems.filter(
-                      (data) => data.category === activeFilter && data.id <= tempCount
+                        (data) => data.category === activeFilter && data.id <= tempCount
                     )
                 );
             }
         }
     }
-    
+
     return (
         <>
             <div className="row row--15">
                 <div className="col-lg-12">
                     <ul className="rwt-portfolio-filter filter-button-default liststyle mb--20">
                         {filters.map((filter) => (
-                        <li className="list-item" key={filter.id}>
-                            <button
-                            onClick={handleChange}
-                            className={
-                                filter.text.toLowerCase() === activeFilter
-                                ? "current"
-                                : " "
-                            }
-                            >
-                            {filter.text}
-                            </button>
-                        </li>
+                            <li className="list-item" key={filter.id}>
+                                <button
+                                    onClick={handleChange}
+                                    className={
+                                        filter.text.toLowerCase() === activeFilter
+                                            ? "current"
+                                            : " "
+                                    }
+                                >
+                                    {filter.text}
+                                </button>
+                            </li>
                         ))}
                     </ul>
                 </div>
@@ -96,33 +110,33 @@ const PortfolioOne = ({ Column }) => {
             <div className="row row--15">
                 {visibleItems.map((item) => (
                     <div key={item.id} className={Column}>
-                        <PortfolioItem portfolio={item} />
+                        <PortfolioItem portfolio={item}/>
                     </div>
                 ))}
             </div>
 
-            <div className="row row--15">
-                <div className="col-lg-12">
-                    <div className="rwt-load-more text-center mt--50">
-                        <button
-                            className="btn btn-default btn-large btn-icon"
-                            onClick={handleLoadmore}
-                            disabled={noMorePost ? "disabled" : null}
-                        >
-                            {noMorePost ? (
-                            "No Item Here"
-                            ) : (
-                            <span>
-                                Load More 
-                                <span className="icon">
-                                    <FaSpinner />
-                                </span>
-                            </span>
-                            )}
-                        </button>
-                    </div>
-                </div>
-            </div>
+            {/*<div className="row row--15">*/}
+            {/*    <div className="col-lg-12">*/}
+            {/*        <div className="rwt-load-more text-center mt--50">*/}
+            {/*            <button*/}
+            {/*                className="btn btn-default btn-large btn-icon"*/}
+            {/*                onClick={handleLoadmore}*/}
+            {/*                disabled={noMorePost ? "disabled" : null}*/}
+            {/*            >*/}
+            {/*                {noMorePost ? (*/}
+            {/*                "No Item Here"*/}
+            {/*                ) : (*/}
+            {/*                <span>*/}
+            {/*                    Load More */}
+            {/*                    <span className="icon">*/}
+            {/*                        <FaSpinner />*/}
+            {/*                    </span>*/}
+            {/*                </span>*/}
+            {/*                )}*/}
+            {/*            </button>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
         </>
     )
 }

@@ -10,13 +10,13 @@ const Copyright = () => {
                             <ul className="ft-menu link-hover">
                                 <li><a href="/contact">Privacy Policy</a></li>
                                 <li><a href="/contact">Terms And Condition</a></li>
-                                <li><a href="/contact">Contact Us</a></li>
+                                <li><a href="/contact">Contact Me</a></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-4 col-sm-12 col-12">
                         <div className="copyright-right text-center text-md-right">
-                            <p className="copyright-text">© Doob {new Date().getFullYear()}</p>
+                            <p className="copyright-text">© Regina Nigma {new Date().getFullYear()}</p>
                         </div>
                     </div>
                 </div>

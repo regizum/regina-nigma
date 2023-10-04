@@ -54,14 +54,14 @@ function ContactForm({props , formStyle}) {
                 />
             </div>
 
-            <div className="form-group">
-                <input 
-                type="text"
-                name="phone"
-                placeholder="Phone Number"
-                required
-                />
-            </div>
+            {/*<div className="form-group">*/}
+            {/*    <input */}
+            {/*    type="text"*/}
+            {/*    name="phone"*/}
+            {/*    placeholder="Phone Number"*/}
+            {/*    required*/}
+            {/*    />*/}
+            {/*</div>*/}
 
 
             <div className="form-group">

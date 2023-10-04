@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiPhone, FiMapPin, FiFile } from "react-icons/fi";
+import {FiPhone, FiMapPin, FiFile, FiMail} from "react-icons/fi";
 
 
 const AboutFive = () => {
@@ -8,25 +8,35 @@ const AboutFive = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-10 offset-lg-1">
-                        <div className="row row--0 about-wrapper align-items-center theme-shape">
-                            <div className="col-lg-6">
-                                <div className="thumbnail">
-                                    <img src="./images/about/about-5.png" alt="About Images" />
-                                </div>
-                            </div>
-                            <div className="col-lg-6 mt_md--30 mt_sm--30">
-                                <div className="content">
-                                    <div className="inner">
-                                        <h4 className="title">I'm Web Dedeloper</h4>
-                                        <p>Web designer and developer working for envato.com in Paris, France.</p>
-                                        <ul className="contact-address">
-                                            <li><FiFile /> Web designer & developer</li>
-                                            <li><FiPhone /> +01916395965</li>
-                                            <li><FiMapPin /> Dhaka, Bangladesh</li>
-                                        </ul>
-                                        <div className="download-button mt--20">
-                                            <a className="btn-read-more" href="#"><span>Download My CV</span></a>
-                                        </div>
+                        <div className="about-wrapper align-items-center theme-shape">
+                            <div className="content">
+                                <div className="inner">
+                                    <h4 className="title">Summary</h4>
+                                    <p>I'm professional Front-End Developer with 11 years of extensive experience.</p>
+                                    <p>I have commercial development experience using Angular, AngularJS, React, Vue3,
+                                        Ionic,
+                                        React Native. Proficient in JavaScript, TypeScript, HTML5, CSS3, SASS, and LESS.
+                                        I have
+                                        a deep understanding of web development tools and practices.</p>
+                                    <p>Having worked in Agile teams, I bring a collaborative and adaptive approach to my
+                                        work. I’m
+                                        quick to identify and resolve bugs, both in Javascript and Typescript, and has
+                                        pixel-perfect
+                                        accuracy when defining and implementing front-end experiences.
+                                    </p>
+                                    <p>
+                                        My goal is to provide clean usable interfaces and develop the most flexible and
+                                        efficient
+                                        application.
+                                    </p>
+                                    <ul className="contact-address list-inline">
+                                        <li><FiMapPin /> Bali, Indonesia & Dubai, UAE</li>
+                                        <li><FiMail /> nigmatullinaregina@gmail.com</li>
+                                        <li><FiPhone /> +62 812 3 999 3502</li>
+                                    </ul>
+                                    <div className="download-button mt--20">
+                                        <a className="btn-read-more mr--15" href="#"><span>Download My CV</span></a>
+                                        <a className="btn-read-more" href="#"><span>Download Recommendation Letter</span></a>
                                     </div>
                                 </div>
                             </div>
