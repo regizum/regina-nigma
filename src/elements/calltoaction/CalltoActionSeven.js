@@ -1,7 +1,8 @@
 import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll";
-import { FiArrowRight } from "react-icons/fi";
+import {FiArrowRight} from "react-icons/fi";
 import Logo from "../logo/Logo";
+import {Link} from "react-router-dom";
 
 const callToActionData = {
     title: "Ready to start creating a standard website?",
@@ -26,12 +27,13 @@ const CalltoActionSeven = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4">
-                        <ScrollAnimation 
-                        animateIn="fadeInUp"
-                        animateOut="fadeInOut"
-                        animateOnce={true}>
+                        <ScrollAnimation
+                            animateIn="fadeInUp"
+                            animateOut="fadeInOut"
+                            animateOnce={true}>
                             <div className="call-to-btn text-left mt_sm--20 text-md-right">
-                                <a className="btn-default btn-icon" href="/contact">{callToActionData.btnText} <i className="icon"><FiArrowRight /></i></a>
+                                <Link className="btn-default btn-icon" to="/contact">{callToActionData.btnText} <i
+                                    className="icon"><FiArrowRight/></i></Link>
                             </div>
                         </ScrollAnimation>
                     </div>

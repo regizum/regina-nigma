@@ -6,6 +6,8 @@ import MobileMenu from './MobileMenu';
 import Darkmode from "./Darkmode";
 import useStickyHeader from "./useStickyHeader";
 
+import {Link} from "react-router-dom";
+
 const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
     const onCanvasHandler = () => {
@@ -43,7 +45,7 @@ const HeaderTwo = ({btnStyle, HeaderSTyle}) => {
                         <div className="col-lg-3 col-md-6 col-8">
                             <div className="header-right">
                                 <div className="header-btn">
-                                    <a className={`btn-default ${btnStyle}`} rel="noreferrer" href="/contact">Contact Me</a>
+                                    <Link className={`btn-default ${btnStyle}`} rel="noreferrer" to="/contact">Contact Me</Link>
                                 </div>
                                 <div className="mobile-menu-bar ml--5 d-block d-lg-none">
                                     <div className="hamberger">

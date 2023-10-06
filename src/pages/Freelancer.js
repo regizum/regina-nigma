@@ -19,7 +19,6 @@ import Copyright from "../common/footer/Copyright";
 import AboutFive from "../elements/about/AboutFive";
 import CalltoActionFiveTwo from "../elements/calltoaction/CalltoActionFiveTwo";
 
-
 const Freelancer = () => {
     return (
         <>
@@ -39,7 +38,7 @@ const Freelancer = () => {
                                     <p className="description text-white">Senior Front-End Developer with 11 years extensive
                                         experience.</p>
                                     <div className="button-group mt--40 mt_sm--20">
-                                        <a className="btn-default btn-large round btn-icon" href="/contact">Click To Hire Me</a>
+                                        <Link className="btn-default btn-large round btn-icon" to="/contact">Click To Hire Me</Link>
                                     </div>
                                 </div>
                             </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollAnimation from "react-animate-on-scroll";
+import {Link} from "react-router-dom";
 
 const TimelineData = [
     {
@@ -199,10 +200,10 @@ const TimelineOne = () => {
                                         animateOnce={true}>
                                         {data.projects.map((project, index) => (
                                             <>
-                                                <a className="d-md-inline-block d-none btn-default btn-border mr--20 mt--20"
-                                                   href={`/portfolio-details/${project.id}`}><span>{project.title}</span></a>
-                                                <a className="d-md-none d-block btn-block btn-default btn-border mr--20 mt--20"
-                                                   href={`/portfolio-details/${project.id}`}><span>{project.title}</span></a>
+                                                <Link className="d-md-inline-block d-none btn-default btn-border mr--20 mt--20"
+                                                   to={`/portfolio-details/${project.id}`}><span>{project.title}</span></Link>
+                                                <Link className="d-md-none d-block btn-block btn-default btn-border mr--20 mt--20"
+                                                   to={`/portfolio-details/${project.id}`}><span>{project.title}</span></Link>
                                             </>
                                         ))}
                                     </ScrollAnimation>

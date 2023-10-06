@@ -3,13 +3,13 @@ import SEO from "../common/SEO";
 import HeaderTwo from '../common/header/HeaderTwo';
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
-import {FiArrowDown} from "react-icons/fi";
 import Typed from "react-typed";
 import AboutOne from "../elements/about/AboutOne";
 import PortfolioOne from "../elements/portfolio/PortfolioOne";
 import FooterTwo from "../common/footer/FooterTwo";
 import Copyright from "../common/footer/Copyright";
 import ContactOne from "../elements/contact/ContactOne";
+import {Link} from "react-router-dom";
 
 const Splash = () => {
     return (
@@ -47,7 +47,7 @@ const Splash = () => {
                                     </h1>
                                     {/*<p className="description">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>*/}
                                     <div className="button-group">
-                                        <a className="btn-default btn-large round btn-icon" href="/contact">Contact Me</a>
+                                        <Link className="btn-default btn-large round btn-icon" to="/contact">Contact Me</Link>
                                     </div>
                                 </div>
                             </div>

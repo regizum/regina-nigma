@@ -1,6 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
 import SectionTitle from "../sectionTitle/SectionTitle";
+import {Link} from "react-router-dom";
 
 const AboutOne = () => {
     return (
@@ -41,10 +42,10 @@ const AboutOne = () => {
 
                             <div className="d-flex mt--40">
                                 <div className="read-more-btn">
-                                    <a className="btn-default" href="/work-experience"><span>My Work Experience</span></a>
+                                    <Link className="btn-default" to="/work-experience"><span>My Work Experience</span></Link>
                                 </div>
                                 <div className="read-more-btn ml--20">
-                                    <a className="btn-default" href="/contact"><span>Contact Me</span></a>
+                                    <Link className="btn-default" to="/contact"><span>Contact Me</span></Link>
                                 </div>
                             </div>
                         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import CalltoActionFive from "../calltoaction/CalltoActionFive";
 import SEO from "../../common/SEO";
+import {Link} from "react-router-dom";
 
 
 const PortfolioDetailsContent = ({ data }) => {
@@ -34,7 +35,7 @@ const PortfolioDetailsContent = ({ data }) => {
                                             </div>
                                         </div>
                                         <div className="view-btn mt--50 mb--50">
-                                            <a className="btn-default btn-large round" href={`${data.btn.link}`}>{data.btn.buttontext}</a>
+                                            <Link className="btn-default btn-large round" to={`${data.btn.link}`}>{data.btn.buttontext}</Link>
                                         </div>
                                     </div>
                                 </div>
