@@ -24,7 +24,7 @@ const TimelineData = [
         ],
         projects: [{
             id: 7,
-            title: "Explore Project"
+            title: "Read More"
         }]
     },
     {
@@ -51,11 +51,11 @@ const TimelineData = [
         projects: [
             {
                 id: 4,
-                title: "Read more about project"
+                title: "Project Example (App)"
             },
             {
                 id: 5,
-                title: "Explore Project 2"
+                title: "Project Example (Website)"
             }
         ]
     },
@@ -79,7 +79,10 @@ const TimelineData = [
                 stepDescription: "I played a key role in maintaining code quality by conducting thorough code reviews. This ensured consistency in coding standards and optimized the style system for better maintainability.",
             },
         ],
-        projects: [4, 5]
+        projects: [{
+            id: 6,
+            title: "Read More"
+        }]
     },
     {
         id: "4",
@@ -101,7 +104,7 @@ const TimelineData = [
                 stepDescription: "I contributed to the development of mobile applications using the Ionic framework, providing cross-platform solutions that delivered a consistent user experience across various devices and platforms.",
             },
         ]
-    }, ,
+    },
     {
         id: "5",
         date: "June 2012 - July 2016",
@@ -154,12 +157,7 @@ const TimelineOne = () => {
                                 <div className="row row--30 mt--40">
                                     <div className="order-2 order-lg-1 col-lg-6">
                                         <div className="content">
-                                            <ScrollAnimation
-                                                animateIn="fadeInUp"
-                                                animateOut="fadeInOut"
-                                                animateOnce={true}>
-                                                <div dangerouslySetInnerHTML={{__html: data.description}}></div>
-                                            </ScrollAnimation>
+                                            <div dangerouslySetInnerHTML={{__html: data.description}}></div>
                                         </div>
                                     </div>
                                     <div className="order-1 order-lg-2 col-lg-6">
@@ -171,19 +169,14 @@ const TimelineOne = () => {
                                 </div>
                             ) : (
                                 <div className="content mt--40">
-                                    <ScrollAnimation
-                                        animateIn="fadeInUp"
-                                        animateOut="fadeInOut"
-                                        animateOnce={true}>
-                                        <div dangerouslySetInnerHTML={{__html: data.description}}></div>
-                                    </ScrollAnimation>
+                                    <div dangerouslySetInnerHTML={{__html: data.description}}></div>
                                 </div>
                             )}
 
 
                             <div className="row row--30">
                                 {data.workingStep.map((data, index) => (
-                                    <div className="col-lg-4 col-md-4 col-12" key={index}>
+                                    <div className="col-lg-4 col-12" key={index}>
                                         <div className="working-list">
                                             <ScrollAnimation
                                                 animateIn="fadeInUp"
@@ -192,12 +185,7 @@ const TimelineOne = () => {
                                                 <h5 className="working-title">{data.stepTitle}</h5>
                                             </ScrollAnimation>
 
-                                            <ScrollAnimation
-                                                animateIn="fadeInUp"
-                                                animateOut="fadeInOut"
-                                                animateOnce={true}>
-                                                <p>{data.stepDescription}</p>
-                                            </ScrollAnimation>
+                                            <p>{data.stepDescription}</p>
                                         </div>
                                     </div>
                                 ))}
@@ -210,8 +198,12 @@ const TimelineOne = () => {
                                         animateOut="fadeInOut"
                                         animateOnce={true}>
                                         {data.projects.map((project, index) => (
-                                            <a className="btn-default btn-large round mr--20"
-                                               href={`/portfolio-details/${project}`}><span>Read More</span></a>
+                                            <>
+                                                <a className="d-md-inline-block d-none btn-default btn-border mr--20 mt--20"
+                                                   href={`/portfolio-details/${project.id}`}><span>{project.title}</span></a>
+                                                <a className="d-md-none d-block btn-block btn-default btn-border mr--20 mt--20"
+                                                   href={`/portfolio-details/${project.id}`}><span>{project.title}</span></a>
+                                            </>
                                         ))}
                                     </ScrollAnimation>
                                 </div>

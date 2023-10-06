@@ -99,6 +99,12 @@ button {
             }
         }
 
+        &.btn-block {
+            display: block;
+
+            @include text-truncate();
+        }
+
         &.text-underline {
             background-image: inherit;
             border-color: var(--color-white);

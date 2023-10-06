@@ -12,7 +12,7 @@
         "excerpt": "Design beautiful apps.",
         "body": ["<p>I have had the privilege of serving as a Front-End Developer at Similie since October 2018. Over the years, I have evolved into a dynamic and proficient front-end developer, contributing significantly to the success of Similie.</p></br><p>My work at Similie has underscored my commitment to delivering high-quality front-end solutions and my ability to adapt to evolving design and development requirements.</p></br><p>I took on a leading role within the company and demonstrated a meticulous, action-oriented approach. I proactively initiated projects, collaborated with team members, and established well-defined paths for execution and accountability.</p>"],
         "btn": {
-            "buttontext": "View Projects",
+            "buttontext": "View Other Projects",
             "link": "/"
         },
         "largeImage": "images/portfolio/similie.jpg",
@@ -48,7 +48,7 @@
         "excerpt": "Design beautiful apps.",
         "body": ["<p>In my role as a Front-End Developer at Payever, I had the opportunity to work on complex applications using Angular 6.</p></br><p>I contributed significantly to the success of our projects and improve the overall user experience. My dedication to code quality and innovative solutions positively impacted the team's productivity and the satisfaction of our end-users.</p>"],
         "btn": {
-            "buttontext": "View Projects",
+            "buttontext": "View Other Projects",
             "link": "/"
         },
         "largeImage": "images/portfolio/payever.jpg",
@@ -119,7 +119,7 @@
         "excerpt": "Design beautiful apps.",
         "body": ["<p>When I worked at CodersClan, I was tasked with creating a mobile application for a some special event.</p></br><p>The application is essentially a roulette wheel that awards prizes with a specific probability.</p></br><p>The application was built using Cordova.</p>"],
         "btn": {
-            "buttontext": "View Projects",
+            "buttontext": "View Other Projects",
             "link": "/"
         },
         "largeImage": "images/portfolio/namogoo.jpg",
@@ -155,7 +155,7 @@
         "excerpt": "Design beautiful apps.",
         "body": ["<p>I received a request to create a website for a company that specializes in delivering healthy food.</p></br><p>The website displays information about the existing delivery options, the advantages of working with the company, and contact information.</p>"],
         "btn": {
-            "buttontext": "View Projects",
+            "buttontext": "View Other Projects",
             "link": "/"
         },
         "largeImage": "images/portfolio/byoufit.jpg",
@@ -191,7 +191,7 @@
         "excerpt": "Design beautiful apps.",
         "body": ["<p>I received a request to create a website for the company Globals.</p></br><p>The company is represented in two countries: the UAE and Lebanon. Therefore, it was important to provide contact information for both countries.</p></br><p>The website consists of 4 pages: Home, which provides general information about the company, and three other pages for services (Food Safety, Catering, and Cleaning).</p>"],
         "btn": {
-            "buttontext": "View Projects",
+            "buttontext": "View Other Projects",
             "link": "/"
         },
         "largeImage": "images/portfolio/globals.jpg",
@@ -227,7 +227,7 @@
         "excerpt": "Design beautiful apps.",
         "body": ["<p>When I worked at CodersClan, I was tasked with creating a WordPress template for an Israel eCommerce Innovation Virtual Summit.</p>"],
         "btn": {
-            "buttontext": "View Projects",
+            "buttontext": "View Other Projects",
             "link": "/"
         },
         "largeImage": "images/portfolio/namogoo-webinar.jpg",
@@ -263,7 +263,7 @@
         "excerpt": "Design beautiful apps.",
         "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
         "btn": {
-            "buttontext": "View Projects",
+            "buttontext": "View Other Projects",
             "link": "/"
         },
         "largeImage": "images/portfolio/portfolio-08.jpg",
@@ -299,7 +299,7 @@
         "excerpt": "Design beautiful apps.",
         "body": ["<p>In a typical React application, data is passed top-down (parent to child) via props, but such usage can be cumbersome for certain types of props (e.g. locale preference, UI theme).</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p> <br /> <p>that are required by many components within an application. Context provides a way to share values like these between components without having to explicitly pass a prop through every level of the tree.</p>"],
         "btn": {
-            "buttontext": "View Projects",
+            "buttontext": "View Other Projects",
             "link": "/"
         },
         "largeImage": "images/portfolio/portfolio-08.jpg",

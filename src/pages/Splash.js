@@ -47,8 +47,8 @@ const Splash = () => {
                                     </h1>
                                     {/*<p className="description">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>*/}
                                     <div className="button-group">
-                                        <a className="btn-default btn-large round btn-icon" href="#portfolio">Read
-                                            more <FiArrowDown/></a>
+                                        <a className="btn-default btn-large round btn-icon" href="#portfolio">Check My
+                                            Portfolio <FiArrowDown/></a>
                                     </div>
                                 </div>
                             </div>
@@ -57,12 +57,12 @@ const Splash = () => {
                 </div>
                 {/* End Slider Area  */}
 
+
                 {/* Start About Area  */}
                 <AboutOne/>
                 {/* End About Area  */}
 
                 <Separator/>
-
 
                 <div className="rwt-portfolio-area rn-section-gap" id="portfolio">
                     <div className="container">

@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import SEO from "../common/SEO";
-import {FiArrowRight} from "react-icons/fi";
+import {FiArrowDown, FiArrowRight} from "react-icons/fi";
 import HeaderTwo from '../common/header/HeaderTwo';
 import CopyrightTwo from '../common/footer/CopyrightTwo';
 import ScrollTop from "../common/footer/ScrollTop";
@@ -23,25 +23,24 @@ import CalltoActionFiveTwo from "../elements/calltoaction/CalltoActionFiveTwo";
 const Freelancer = () => {
     return (
         <>
-            <SEO title="Freelancer"/>
+            <SEO title="Regina Nigma | My Work Experience"/>
             <main className="page-wrapper">
                 <HeaderTwo btnStyle="btn-small" HeaderSTyle="header-transparent"/>
 
                 {/* Start Slider area  */}
-                <div className="slider-area slider-style-2 variation-3 height-850 bg_image bg_image_fixed theme-shape"
+                <div className="slider-area slider-style-2 variation-3 height-850 bg-overlay bg_image theme-shape"
                      style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/main-image.jpg)`}}>
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6">
+                            <div className="col-lg-8">
                                 <div className="inner text-left">
                                     <h1 className="title">Hello, I am‍ <br/><span className="theme-gradient">Regina Nigmatullina!</span>
                                     </h1>
-                                    <p className="description">Senior Front-End Developer with 11 years extensive
+                                    <p className="description text-white">Senior Front-End Developer with 11 years extensive
                                         experience.</p>
                                     <div className="button-group mt--40 mt_sm--20">
-                                        <Link className="btn-default btn-border" to="#">Click For Hire Me</Link>
-                                        <Link className="btn-default btn-icon" to="#">About Me <i
-                                            className="icon"><FiArrowRight/></i></Link>
+                                        <a className="btn-default btn-large round btn-icon" href="/contact">Click To Hire Me</a>
+                                        <a className="btn-default btn-large round btn-icon" href="#experience">My Work Experience <FiArrowDown/></a>
                                     </div>
                                 </div>
                             </div>
@@ -54,17 +53,20 @@ const Freelancer = () => {
                 {/*<AboutTwo />*/}
 
 
-                <div className="rwt-timeline-area rn-section-gapBottom">
+                <div className="rwt-timeline-area rn-section-gap pt--0" id="experience">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <TimelineOne/>
-                            </div>
-                        </div>
+                        <SectionTitle
+                            textAlign="text-center"
+                            radiusRounded=""
+                            subtitle={"Experience"}
+                            title="My Work Experience"
+                            description=""
+                        />
+                        <TimelineOne/>
                     </div>
                 </div>
 
-                <div className="rwt-timeline-area rn-section-gapBottom">
+                <div className="rwt-timeline-area rn-section-gap">
                     <div className="container">
                         <CalltoActionFiveTwo />
                     </div>

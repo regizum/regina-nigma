@@ -1,6 +1,8 @@
 import React from 'react';
 import {FiPhone, FiMapPin, FiFile, FiMail} from "react-icons/fi";
-
+import recommendation from '../../assets/pdf/Recommendation-Letter-Regina-Nigmatullina.pdf';
+import cv from '../../assets/pdf/CV-Regina-Nigmatullina.pdf';
+import SectionTitle from "../sectionTitle/SectionTitle";
 
 const AboutFive = () => {
     return (
@@ -8,10 +10,16 @@ const AboutFive = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-10 offset-lg-1">
-                        <div className="about-wrapper align-items-center theme-shape">
+                        <div className="about-wrapper align-items-center theme-shape theme-shape-top">
                             <div className="content">
                                 <div className="inner">
-                                    <h4 className="title">Summary</h4>
+                                    <SectionTitle
+                                        textAlign="text-left"
+                                        radiusRounded=""
+                                        subtitle={"Summary"}
+                                        title="About Me"
+                                        description=""
+                                    />
                                     <p>I'm professional Front-End Developer with 11 years of extensive experience.</p>
                                     <p>I have commercial development experience using Angular, AngularJS, React, Vue3,
                                         Ionic,
@@ -35,8 +43,8 @@ const AboutFive = () => {
                                         <li><FiPhone /> +62 812 3 999 3502</li>
                                     </ul>
                                     <div className="download-button mt--20">
-                                        <a className="btn-read-more mr--15" href="#"><span>Download My CV</span></a>
-                                        <a className="btn-read-more" href="#"><span>Download Recommendation Letter</span></a>
+                                        <a className="btn-read-more mr--15" href={cv} target = "_blank"><span>Download My CV</span></a>
+                                        <a className="btn-read-more" href={recommendation} target = "_blank"><span>Download Recommendation Letter</span></a>
                                     </div>
                                 </div>
                             </div>

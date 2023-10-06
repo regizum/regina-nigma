@@ -1,6 +1,5 @@
 import React from 'react';
-import HeaderOne from "./header/HeaderOne";
-import HeaderTopNews from "./header/HeaderTopNews";
+import HeaderTwo from "./header/HeaderTwo";
 import FooterTwo from "./footer/FooterTwo";
 import Copyright from "./footer/Copyright";
 
@@ -9,7 +8,7 @@ const Layout = ({children}) => {
         <>
             <main className="page-wrapper">
                 {/*<HeaderTopNews />*/}
-                <HeaderOne btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
+                <HeaderTwo btnStyle="btn-small round btn-icon" HeaderSTyle="header-not-transparent" />
                 {children}
                 <FooterTwo />
                 <Copyright />

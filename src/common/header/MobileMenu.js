@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from "../../elements/logo/Logo";
-import Nav from './Nav';
+import NavTwo from './NavTwo';
 import { FiX } from "react-icons/fi";
 
 const MobileMenu = ({show, onClose}) => {
@@ -35,7 +35,7 @@ const MobileMenu = ({show, onClose}) => {
                         <button className="close-button" onClick={onClose}><FiX /></button>
                     </div>
                 </div>
-                <Nav />
+                <NavTwo />
             </div>
         </div>
     )

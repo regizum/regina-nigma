@@ -8,28 +8,20 @@ import ContactOne from "./ContactOne";
 const Contact = () => {
     return (
         <>
-            <SEO title="Contact || Doob - React Business  Template" />
+            <SEO title="Regina Nigma | Contact Me" />
             <Layout>
-                <BreadcrumbOne 
-                    title="The Easiest Way To Create Website <br /> Quick Copy & Make site."
-                    rootUrl="/"
-                    parentUrl="Home"
-                    currentUrl="Contact"
-                />
                 <div className="main-content">
                     {/* Start Contact Area  */}
                     <div className="rwt-contact-area rn-section-gap">
                         <div className="container">
-                            <div className="row">
-                                <div className="col-lg-12 mb--40">
-                                    <SectionTitle
-                                        textAlign = "text-center"
-                                        radiusRounded = ""
-                                        subtitle = "Contact Form"
-                                        title = "Our Contact Address Here."
-                                        description = ""
-                                    />
-                                </div>
+                            <div className="mb--40">
+                                <SectionTitle
+                                    textAlign = "text-center"
+                                    radiusRounded = ""
+                                    subtitle = "My Contact Details"
+                                    title = "Contact Me"
+                                    description = ""
+                                />
                             </div>
                             <ContactOne />
                         </div>
