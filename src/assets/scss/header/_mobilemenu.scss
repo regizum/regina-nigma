@@ -54,6 +54,10 @@
                     align-items: center;
                     justify-content: center;
                     border-radius: 100%;
+
+                    svg {
+                        stroke: white;
+                    }
                 }
             }
         }

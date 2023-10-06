@@ -31,7 +31,7 @@ const Splash = () => {
                                     {/*<div className="react-image mb--20">*/}
                                     {/*    <img src="./images/demo/react-badge.png" alt="Doob React" />*/}
                                     {/*</div>*/}
-                                    <h1 className="title display-two mt--130 mb--130">
+                                    <h1 className="title display-two mt--130 mb--130 mb_sm--80 pt_sm--50">
                                         Create a website<br/>for your business<br/>
                                         <span className="theme-gradient">to get more<br/><Typed
                                             strings={[

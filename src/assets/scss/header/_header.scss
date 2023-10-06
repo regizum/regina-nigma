@@ -54,14 +54,14 @@
         &.btn-default {
             @media #{$sm-layout} {
                 height: 36px;
-                line-height: 35px;
+                line-height: 33px;
                 padding: 0 16px;
                 font-size: 12px;
             }
             &.btn-small {
                 @media #{$sm-layout} {
                     height: 36px;
-                    line-height: 35px;
+                    line-height: 33px;
                     padding: 0 16px;
                     font-size: 12px;
                 }
@@ -125,6 +125,10 @@
     align-items: center;
     justify-content: center;
     border-radius: 100%;
+
+    svg {
+        stroke: white;
+    }
 }
 
 .header-left-align {
