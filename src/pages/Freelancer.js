@@ -40,7 +40,6 @@ const Freelancer = () => {
                                         experience.</p>
                                     <div className="button-group mt--40 mt_sm--20">
                                         <a className="btn-default btn-large round btn-icon" href="/contact">Click To Hire Me</a>
-                                        <a className="btn-default btn-large round btn-icon" href="#experience">My Work Experience <FiArrowDown/></a>
                                     </div>
                                 </div>
                             </div>

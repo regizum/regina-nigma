@@ -47,8 +47,7 @@ const Splash = () => {
                                     </h1>
                                     {/*<p className="description">We help our clients succeed by creating brand identities, digital experiences, and print materials.</p>*/}
                                     <div className="button-group">
-                                        <a className="btn-default btn-large round btn-icon" href="#portfolio">Check My
-                                            Portfolio <FiArrowDown/></a>
+                                        <a className="btn-default btn-large round btn-icon" href="/contact">Contact Me</a>
                                     </div>
                                 </div>
                             </div>

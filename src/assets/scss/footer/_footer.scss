@@ -92,6 +92,10 @@
         a {
             img {
                 max-height: 55px;
+
+                @media #{$sm-layout} {
+                   max-height: 30px;
+                }
             }
         }
     }

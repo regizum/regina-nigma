@@ -126,6 +126,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
     li {
         button {
             border: 0 none;
@@ -135,11 +136,18 @@
             color: var(--color-body);
             @extend %radius-small;
             @extend %transition;
+
             margin: 0 5px;
+
             &.current ,
             &:hover {
                 background-color: var(--color-primary);
                 color: var(--color-white) !important;
+            }
+
+            @media #{$sm-layout} {
+                padding: 5px 10px;
+                font-size: 12px;
             }
         }
     }
