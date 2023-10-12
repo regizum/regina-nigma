@@ -10,6 +10,7 @@ import FooterTwo from "../common/footer/FooterTwo";
 import Copyright from "../common/footer/Copyright";
 import AboutFive from "../elements/about/AboutFive";
 import CalltoActionFiveTwo from "../elements/calltoaction/CalltoActionFiveTwo";
+import ProgressbarOne from "../elements/progressbar/ProgressbarOne";
 
 const Freelancer = () => {
     return (
@@ -27,10 +28,12 @@ const Freelancer = () => {
                                 <div className="inner text-left">
                                     <h1 className="title">Hello, I am‍ <br/><span className="theme-gradient">Regina Nigmatullina!</span>
                                     </h1>
-                                    <p className="description text-white">Senior Front-End Developer with 11 years extensive
+                                    <p className="description text-white">Senior Front-End Developer with 11 years
+                                        extensive
                                         experience.</p>
                                     <div className="button-group mt--40 mt_sm--20">
-                                        <Link className="btn-default btn-large round btn-icon" to="/contact">Click To Hire Me</Link>
+                                        <Link className="btn-default btn-large round btn-icon" to="/contact">Click To
+                                            Hire Me</Link>
                                     </div>
                                 </div>
                             </div>
@@ -45,6 +48,24 @@ const Freelancer = () => {
 
                 <div className="rwt-timeline-area rn-section-gap pt--0" id="experience">
                     <div className="container">
+                        <div className="row">
+                            <div className="col-lg-10 offset-lg-1">
+                                <SectionTitle
+                                    textAlign="text-center"
+                                    radiusRounded=""
+                                    subtitle={"Frameworks"}
+                                    title="My Skills"
+                                    description=""
+                                />
+                                <ProgressbarOne/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="rwt-timeline-area rn-section-gap" id="experience">
+                    <div className="container">
                         <SectionTitle
                             textAlign="text-center"
                             radiusRounded=""
@@ -58,7 +79,7 @@ const Freelancer = () => {
 
                 <div className="rwt-timeline-area rn-section-gap">
                     <div className="container">
-                        <CalltoActionFiveTwo />
+                        <CalltoActionFiveTwo/>
                     </div>
                 </div>
 
