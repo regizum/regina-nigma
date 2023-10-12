@@ -1,12 +1,11 @@
 import React from 'react';
 import SEO from "../common/SEO";
 import Layout from "../common/Layout";
-import SectionTitle from "../elements/sectionTitle/SectionTitle";
 
 const TermsAndConditions = () => {
     return (
         <>
-            <SEO title="Regina Nigma | Privacy Policy"/>
+            <SEO title="Regina Nigma | Terms And Conditions"/>
             <Layout>
                 <div className="main-content">
                     {/* Start Contact Area  */}

@@ -1,5 +1,5 @@
 import React from 'react';
-import {FiPhone, FiMapPin, FiFile, FiMail} from "react-icons/fi";
+import {FiPhone, FiMapPin, FiMail} from "react-icons/fi";
 import recommendation from '../../assets/pdf/Recommendation-Letter-Regina-Nigmatullina.pdf';
 import cv from '../../assets/pdf/CV-Regina-Nigmatullina.pdf';
 import SectionTitle from "../sectionTitle/SectionTitle";
@@ -43,8 +43,8 @@ const AboutFive = () => {
                                         <li><FiPhone /> +62 812 3 999 3502</li>
                                     </ul>
                                     <div className="download-button mt--20">
-                                        <a className="btn-read-more mr--15" href={cv} target = "_blank"><span>Download My CV</span></a>
-                                        <a className="btn-read-more" href={recommendation} target = "_blank"><span>Download Recommendation Letter</span></a>
+                                        <a className="btn-read-more mr--15" href={cv} target = "_blank" rel="noreferrer"><span>Download My CV</span></a>
+                                        <a className="btn-read-more" href={recommendation} target = "_blank" rel="noreferrer"><span>Download Recommendation Letter</span></a>
                                     </div>
                                 </div>
                             </div>

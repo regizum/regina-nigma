@@ -1,17 +1,9 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import SEO from "../common/SEO";
-import {FiArrowDown, FiArrowRight} from "react-icons/fi";
 import HeaderTwo from '../common/header/HeaderTwo';
-import CopyrightTwo from '../common/footer/CopyrightTwo';
 import ScrollTop from "../common/footer/ScrollTop";
-import SectionTitleTwo from "../elements/sectionTitle/SectionTitleTwo";
-import PricingOne from "../elements/pricing/PricingOne";
-import BrandThree from "../elements/brand/BrandThree";
 import TimelineOne from "../elements/timeline/TimelineOne";
-import TestimonialOne from "../elements/testimonial/TestimonialOne";
-import ContactForm from "../elements/contact/ContactForm";
-import AboutTwo from "../elements/about/AboutTwo";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 import ContactOne from "../elements/contact/ContactOne";
 import FooterTwo from "../common/footer/FooterTwo";

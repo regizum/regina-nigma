@@ -1,7 +1,6 @@
 import React from 'react';
 import SEO from "../common/SEO";
 import Layout from "../common/Layout";
-import SectionTitle from "../elements/sectionTitle/SectionTitle";
 
 const PrivacyPolicy = () => {
     return (

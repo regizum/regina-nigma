@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from "react";
 import PortfolioData from "../../data/portfolio/PortfolioData.json";
 import PortfolioItem from "./PortfolioItem";
-import {FaSpinner} from "react-icons/fa";
-import SEO from "../../common/SEO";
 
 const filters = [
     {
@@ -38,9 +36,9 @@ const filters = [
 const alldata = PortfolioData;
 const PortfolioOne = ({Column}) => {
     const [getAllItems] = useState(alldata);
-    const [dataVisibleCount, setDataVisibleCount] = useState(10);
-    const [dataIncrement] = useState(10);
-    const [noMorePost, setNoMorePost] = useState(false);
+    const [dataVisibleCount] = useState(10);
+    // const [dataIncrement] = useState(10);
+    // const [noMorePost, setNoMorePost] = useState(false);
     const [activeFilter, setActiveFilter] = useState("");
     const [visibleItems, setVisibleItems] = useState([]);
     useEffect(() => {
@@ -64,25 +62,25 @@ const PortfolioOne = ({Column}) => {
         }
         setVisibleItems(tempData);
     };
-
-    const handleLoadmore = (e) => {
-        e.preventDefault();
-        let tempCount = dataVisibleCount + dataIncrement;
-        if (dataVisibleCount >= getAllItems.length) {
-            setNoMorePost(true);
-        } else {
-            setDataVisibleCount(tempCount);
-            if (activeFilter === filters[0].text.toLowerCase()) {
-                setVisibleItems(getAllItems.filter((data) => data.id <= tempCount));
-            } else {
-                setVisibleItems(
-                    getAllItems.filter(
-                        (data) => data.category === activeFilter && data.id <= tempCount
-                    )
-                );
-            }
-        }
-    }
+    //
+    // const handleLoadmore = (e) => {
+    //     e.preventDefault();
+    //     let tempCount = dataVisibleCount + dataIncrement;
+    //     if (dataVisibleCount >= getAllItems.length) {
+    //         setNoMorePost(true);
+    //     } else {
+    //         setDataVisibleCount(tempCount);
+    //         if (activeFilter === filters[0].text.toLowerCase()) {
+    //             setVisibleItems(getAllItems.filter((data) => data.id <= tempCount));
+    //         } else {
+    //             setVisibleItems(
+    //                 getAllItems.filter(
+    //                     (data) => data.category === activeFilter && data.id <= tempCount
+    //                 )
+    //             );
+    //         }
+    //     }
+    // }
 
     return (
         <>

@@ -3,7 +3,7 @@ import { FiMenu } from "react-icons/fi";
 import Logo from "../../elements/logo/Logo";
 import Nav from './Nav';
 import MobileMenu from './MobileMenu';
-import Darkmode from "./Darkmode";
+// import Darkmode from "./Darkmode";
 import useStickyHeader from "./useStickyHeader";
 
 const HeaderOne = ({btnStyle, HeaderSTyle}) => {
@@ -14,7 +14,8 @@ const HeaderOne = ({btnStyle, HeaderSTyle}) => {
 
 
     const ref = useRef();
-    let [check, setCheck] = useState(true);
+    let check = true;
+    // let [check, setCheck] = useState(true);
     const sticky = useStickyHeader( 50 );
     const headerClasses = `header-default ${(sticky && check) ? 'sticky' : ''}`
     // const { clientHeight } = ref;

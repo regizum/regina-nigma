@@ -64,7 +64,7 @@ const TimelineData = [
         id: "3",
         date: "March 2018 - August 2018",
         title: "Front-End Developer at Payever",
-        description: "<p>In my role as a Front-End Developer at Payever, I had the opportunity to work on complex applications using Angular 6. I contributed significantly to the success of our projects and improve the overall user experience. My dedication to code quality and innovative solutions positively impacted the team's productivity and the satisfaction of our end-users.</p>",
+        description: "<p>In my role as a Front-End Developer at Payever, I had the opportunity to work on complex applications using Angular 6. I contributed significantly to the success of our projects and improve the overall user experience. My dedication to code quality and innovative solutions positively impacted the team's productivity and the satisfaction of our end-users.</p>",
         image: "payever",
         workingStep: [
             {
@@ -89,7 +89,7 @@ const TimelineData = [
         id: "4",
         date: "July 2016 - March 2018",
         title: "Front-End Developer at Brobotics",
-        description: "<p>In my role as a Front-End Developer at Payever, I had the opportunity to work on complex applications using Angular 6. I contributed significantly to the success of our projects and improve the overall user experience. My dedication to code quality and innovative solutions positively impacted the team's productivity and the satisfaction of our end-users.</p>",
+        description: "<p>As an Front-End Developer at Brobotics, I played a pivotal role in developing innovative web and mobile applications, ensuring high-quality code, and maintaining a well-organized UI system.</p><p>My dedication to producing high-quality code and my expertise in Angular development allowed me to make significant contributions to the success of our projects. I thrived in a collaborative and dynamic environment, consistently delivering solutions that met or exceeded client expectations while adhering to best practices in web and mobile development.</p>",
         image: "brobotics",
         workingStep: [
             {

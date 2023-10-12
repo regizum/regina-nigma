@@ -1,14 +1,10 @@
 import React from 'react';
-import SEO from "../../common/SEO";
 import Layout from "../../common/Layout";
 import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
 import SectionTitle from "../sectionTitle/SectionTitle";
 import PortfolioOne from "./PortfolioOne";
 
-
-
 const Portfolio = () => {
-
     return (
         <>
             <Layout>

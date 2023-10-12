@@ -14,7 +14,7 @@ const PortfolioDetailsContent = ({ data }) => {
                         <div className="details-list">
                             {/*<h1 className="text-center mb--40">{data.title}</h1>*/}
                             <div className="thumbnail">
-                                <img className="radius w-100" src={`${process.env.PUBLIC_URL}/${data.largeImage}`} alt="Corporate Image" />
+                                <img className="radius w-100" src={`${process.env.PUBLIC_URL}/${data.largeImage}`} alt={data.title} />
                             </div>
 
                             <div className="row mt--80 mt_md--50 mt_sm--50 row--30">

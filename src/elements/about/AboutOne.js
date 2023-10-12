@@ -1,5 +1,4 @@
 import React from 'react';
-import Typed from 'react-typed';
 import SectionTitle from "../sectionTitle/SectionTitle";
 import {Link} from "react-router-dom";
 
